@@ -1,35 +1,19 @@
-# boilerplates
+# jstransformer-loader
 
-This is a boilerplate for new transformers.
+[JSTransformers](http://github.com/jstransformers) Loader for [Webpack](http://webpack.github.io).
 
-What you need to do:
-
-1. Add your name to `LICENSE.md` and `package.json`
-2. Activate Travis CI and Coveralls.
-3. Update module name in `package.json` and `README.md`
-4. Let the fun begin!
-
-# jstransformer-foo
-
-[Foo](http://example.com) support for [JSTransformers](http://github.com/jstransformers).
-
-[![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-foo/master.svg)](https://travis-ci.org/jstransformers/jstransformer-foo)
-[![Coverage Status](https://img.shields.io/coveralls/jstransformers/jstransformer-foo/master.svg)](https://coveralls.io/r/jstransformers/jstransformer-foo?branch=master)
-[![Dependency Status](https://img.shields.io/david/jstransformers/jstransformer-foo/master.svg)](http://david-dm.org/jstransformers/jstransformer-foo)
-[![NPM version](https://img.shields.io/npm/v/jstransformer-foo.svg)](https://www.npmjs.org/package/jstransformer-foo)
+[![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-loader/master.svg)](https://travis-ci.org/jstransformers/jstransformer-loader)
+[![Coverage Status](https://img.shields.io/coveralls/jstransformers/jstransformer-loader/master.svg)](https://coveralls.io/r/jstransformers/jstransformer-loader?branch=master)
+[![Dependency Status](https://img.shields.io/david/jstransformers/jstransformer-loader/master.svg)](http://david-dm.org/jstransformers/jstransformer-loader)
+[![NPM version](https://img.shields.io/npm/v/jstransformer-loader.svg)](https://www.npmjs.org/package/jstransformer-loader)
 
 ## Installation
 
-    npm install jstransformer-foo
+    npm install jstransformer-loader
 
 ## API
 
-```js
-var foo = require('jstransformer')(require('jstransformer-foo'))
-
-foo.render('blah').body
-//=> 'blah'
-```
+TODO: Add example
 
 ## License
 

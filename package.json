@@ -1,24 +1,33 @@
 {
-  "name": "jstransformer-foo",
-  "version": "0.0.0",
-  "description": "Foo support for JSTransformers.",
+  "name": "jstransformer-loader",
+  "version": "0.0.1",
+  "description": "JSTransformer loader for webpack.",
   "keywords": [
+    "webpack",
+    "loader",
     "jstransformer"
   ],
   "files": [
     "index.js"
   ],
+  "dependencies": {
+    "jstransformer": "0.0.2",
+    "loader-utils": "~0.2.1"
+  },
   "devDependencies": {
-    "test-jstransformer": "^1.0.0"
+    "jstransformer-octet": "^0.1.0",
+    "test-jstransformer": "^1.0.0",
+    "testit": "^2.0.2",
+    "webpack": "^1.9.10"
   },
   "scripts": {
-    "test": "test-jstransformer",
+    "test": "webpack --config=test/webpack.config.js && node test",
     "coverage": "test-jstransformer coverage"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jstransformers/jstransformer-foo.git"
+    "url": "git://github.com/jstransformer/jstransformer-loader.git"
   },
-  "author": "Your Name <email@example.com>",
+  "author": "Rob Loach <robloach@gmail.com>",
   "license": "MIT"
 }
