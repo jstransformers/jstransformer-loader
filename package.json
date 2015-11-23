@@ -11,7 +11,7 @@
     "index.js"
   ],
   "dependencies": {
-    "jstransformer": "0.0.2",
+    "jstransformer": "0.0.4",
     "loader-utils": "~0.2.1"
   },
   "devDependencies": {
