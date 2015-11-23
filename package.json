@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jstransformer/jstransformer-loader.git"
+    "url": "git://github.com/jstransformers/jstransformer-loader.git"
   },
   "author": "Rob Loach <robloach@gmail.com>",
   "license": "MIT"
