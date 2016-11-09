@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "jstransformer-octet": "^2.0.0",
-    "test-jstransformer": "^1.0.0",
+    "test-jstransformer": "^1.0.1",
     "testit": "^2.0.2",
     "webpack": "^1.9.10"
   },
