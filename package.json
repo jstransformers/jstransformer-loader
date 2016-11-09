@@ -15,7 +15,7 @@
     "loader-utils": "~0.2.1"
   },
   "devDependencies": {
-    "jstransformer-octet": "^0.1.0",
+    "jstransformer-octet": "^2.0.0",
     "test-jstransformer": "^1.0.0",
     "testit": "^2.0.2",
     "webpack": "^1.9.10"
