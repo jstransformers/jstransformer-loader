@@ -18,7 +18,7 @@
     "jstransformer-octet": "^2.0.0",
     "test-jstransformer": "^1.0.0",
     "testit": "^2.0.2",
-    "webpack": "^1.9.10"
+    "webpack": "^2.3.2"
   },
   "scripts": {
     "test": "webpack --config=test/webpack.config.js && node test",
