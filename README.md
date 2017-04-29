@@ -1,5 +1,7 @@
 # jstransformer-loader
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-loader.svg)](https://greenkeeper.io/)
+
 [JSTransformers](http://github.com/jstransformers) Loader for [Webpack](http://webpack.github.io).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-loader/master.svg)](https://travis-ci.org/jstransformers/jstransformer-loader)
