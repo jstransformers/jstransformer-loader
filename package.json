@@ -12,13 +12,13 @@
   ],
   "dependencies": {
     "jstransformer": "1.0.0",
-    "loader-utils": "~0.2.1"
+    "loader-utils": "~1.1.0"
   },
   "devDependencies": {
     "jstransformer-octet": "^2.0.0",
     "test-jstransformer": "^1.0.0",
     "testit": "^2.0.2",
-    "webpack": "^1.9.10"
+    "webpack": "^2.4.1"
   },
   "scripts": {
     "test": "webpack --config=test/webpack.config.js && node test",
