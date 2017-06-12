@@ -1,4 +1,8 @@
 {
+  "dependencies": {
+    "jstransformer": "1.0.0",
+    "loader-utils": "~1.1.0"
+  },
   "name": "jstransformer-loader",
   "version": "0.0.1",
   "description": "JSTransformer loader for webpack.",
@@ -10,24 +14,28 @@
   "files": [
     "index.js"
   ],
-  "dependencies": {
-    "jstransformer": "1.0.0",
-    "loader-utils": "~0.2.1"
-  },
   "devDependencies": {
     "jstransformer-octet": "^2.0.0",
-    "test-jstransformer": "^1.0.0",
     "testit": "^2.0.2",
-    "webpack": "^1.9.10"
+    "webpack": "^2.6.1",
+    "test-jstransformer": "^1.0.0",
+    "xo": "*"
   },
   "scripts": {
-    "test": "webpack --config=test/webpack.config.js && node test",
-    "coverage": "test-jstransformer coverage"
+    "coverage": "test-jstransformer coverage",
+    "test": "webpack --config=test/webpack.config.js",
+    "posttest": "xo --space --no-semicolon index.js"
+  },
+  "engines": {
+    "node": ">=4"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/jstransformers/jstransformer-loader.git"
   },
-  "author": "Rob Loach <robloach@gmail.com>",
+  "author": {
+    "name": "JSTransformers Team",
+    "url": "http://github.com/orgs/jstransformers/people"
+  },
   "license": "MIT"
 }
