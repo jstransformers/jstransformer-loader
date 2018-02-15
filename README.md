@@ -15,9 +15,7 @@
 ## API
 
 ```js
-
 // TODO: Add example
-
 ```
 
 ## License
