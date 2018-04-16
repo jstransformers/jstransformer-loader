@@ -10,5 +10,6 @@ module.exports = {
     path: __dirname,
     filename: "index.js"
   },
-  target: "node"
+  target: "node",
+  "mode": "development"
 };
