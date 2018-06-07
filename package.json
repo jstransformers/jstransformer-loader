@@ -19,7 +19,7 @@
     "test-jstransformer": "^1.0.0",
     "testit": "^3.0.0",
     "webpack": "^4.10.2",
-    "webpack-cli": "^2.0.14",
+    "webpack-cli": "^3.0.0",
     "xo": "*"
   },
   "scripts": {
