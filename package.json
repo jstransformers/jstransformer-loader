@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "jstransformer": "1.0.0",
-    "loader-utils": "~1.2.0"
+    "loader-utils": "~1.4.0"
   },
   "name": "jstransformer-loader",
   "version": "0.1.0",
